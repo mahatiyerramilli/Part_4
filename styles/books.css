@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(194, 209, 180);
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(194, 209, 180);
+    border-bottom: 1px solid #ddd;
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: green;
+    justify-content: center;
+    text-align: center;
+}
+header .search-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.mood-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.mood-section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #555;
+}
+
+.mood-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px; 
+    justify-items: start; 
+    align-items: start; 
+    margin-top: 20px;
+}
+
+.mood-box {
+    width: 300px; 
+    height: 200px; 
+    background-color: #ffffff;
+    border: 2px solid #000; 
+    border-radius: 15px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #333;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.mood-box {
+    color: darkgreen;
+    font-family: Courier, monospace	; 
+    font-size: 20px; 
+    font-weight: bold; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    padding: 10px;
+    background-color: #ffffff; 
+    border: 2px solid #2ecc71; 
+    border-radius: 10px; }
+
+.mood-box:hover {
+    color: #27ae60; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+div img {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 15px;
+}
+.mood-box:hover {
+    transform: scale(1.05); 
+    background-color: #f0f0f0; 
+}
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    font-size: 12px;
+    background-color: #f3f3f3;
+    border-top: 1px solid #ccc;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* DEVELOPER: Mahati Yerramilli, IS117-001, Fall 2024*/

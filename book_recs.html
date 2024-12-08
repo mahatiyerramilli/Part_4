@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Books - Home</title>
+    <link rel="stylesheet" href="styles/books.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="slicknav.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo: '#mobile_menu'});
+	});
+	</script>
+</head>
+<body>
+    <header>
+        <h1><a href="P4_home.html">Find Books</a></h1>
+    </header>
+    <nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+        <ul>
+            <li><a  href="P4_home.html">Home</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            
+            <!-- Book Recommendations with submenu -->
+            <li class="menu-item">
+                <a class="current"href="book_recs.html"> Recommendations</a>
+                <ul class="submenu">
+                    <li><a href="#">Moods</a></li>
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Situations</a></li>
+                    <li><a href="#">Your Taste</a></li>
+                    <li><a href="#">Popular</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="mood-section">
+            <h2>Explore by Mood</h2>
+            <div class="mood-grid">
+                <div class="mood-box" >Feel-Good/Happy</div>
+                <div class="mood-box">Lonely</div>
+                <div class="mood-box">Heartbroken</div>
+                <div class="mood-box">Hopeless</div>
+                <div class="mood-box">Lost</div>
+                <div class="mood-box">Fear/Scared</div>
+                <div class="mood-box">Romantic</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Find Books | <a href="#">Terms of Service</a> | <a href="#">Privacy Statement</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- DEVELOPER: Mahati Yerramilli, IS117-001, Fall 2024 -->
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+
+/* for the menu */
+#nav_menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#nav_menu ul li {
+    float: left;
+    width: 20%;
+    position: relative; 
+}
+
+#nav_menu ul li a {
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+.submenu {
+    display: none;
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: green;
+    padding: 0.5em 0;
+    list-style: none;
+    margin: 0;
+    z-index: 10;
+    width: 100%; 
+}
+
+/* Show submenu  */
+.menu-item:hover .submenu {
+    display: block;
+}
+
+/* Style submenu links */
+.submenu li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: darkgreen;
+    white-space: nowrap;
+}
+
+
+#nav_menu a.current {
+	color: greenyellow;
+}
+#nav_menu ul ul {
+    display: none;
+	width: 100%;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+	list-style-type: circle;
+}
+section li {
+	padding-bottom: .35em;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+#mobile_menu {
+	display: none; 
+}
+
+
+/* responsive stuff*/
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 95%;
+    }
+    header img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    header {
+        text-align: center;
+    }
+ 
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for small devices */
+    body {
+        font-size: 85%;
+    }
+  
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller tablets and large phones */
+    body {
+        font-size: 95%;
+    }
+    header img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    header {
+        text-align: center;
+    }
+    
+    #nav_menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Adjustments for small devices */
+    body {
+        font-size: 85%;
+    }
+
+}
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #90EE90;
+    background-color: rgb(194, 209, 180)!important;
+    padding: 0;
+    font-family: seria, Georgia, 'Times New Roman', Times, serif	; 
+
+}
+
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(194, 209, 180);
+    border-bottom: 1px solid #ddd;
+    font-family: seria, Georgia, 'Times New Roman', Times, serif	;
+a {
+        text-decoration: none; 
+        color: inherit; /* this keeps the text color of the parent element */
+    }
+}
+header h1 {
+    margin: 0;
+    font-size: 35px;
+    color: green;
+
+    justify-content: center;
+    text-align: center;
+    font-family: seria, Georgia, 'Times New Roman', Times, serif	; 
+
+}
+
+header .search-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+}
+.section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+.carousel div {
+    flex: 1;
+    height: 300px;
+    width: 300px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* end of main */
+
+.arrow {
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+.link-box {
+    flex: 1;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    border: 1px solid #ddd;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+    border-top: 1px green;
+    font-size: 12px;
+}
+.slicknav_menu {
+    background-color: green !important;
+    color: white !important;
+}
+
+
+
+.slicknav_menu a:hover {
+    color: greenyellow !important;
+}
+
+/* DEVELOPER: Mahati Yerramilli, IS117-001, Fall 2024*/

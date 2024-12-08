@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="slicknav.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo: '#mobile_menu'});
+	});
+	</script>
+
+</head>
+<body>
+    <header>
+        <h1>Find Books</h1>
+    </header>
+
+
+    <nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+        <ul>
+            <li><a class="current" href="P4_home.html">Home</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            
+            <li class="menu-item">
+                <a href="#"> Recommendations</a>
+                <ul class="submenu">
+                    <li><a href="book_recs.html">Moods</a></li>
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Situations</a></li>
+                    <li><a href="#">Your Taste</a></li>
+                    <li><a href="#">Popular</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="content">
+        <div class="section-title">Current Fan Favorites</div>
+        <div class="carousel">
+            <div class="arrow">◀</div>
+            <div><img src="https://i.pinimg.com/originals/e0/04/49/e004497508c91f9cc8e69cc0c0f3ad21.jpg" class="img-fluid" alt="A little Life" height="300" width="200 "></div>
+            <div><img src= "https://cdn.shopify.com/s/files/1/0601/0883/2974/products/the-kite-runner-10th-anniversary-edition-9781594631931-18262073016469_1100x.jpg?v=1648785328" class="img-fluid"alt = "The Kite Runner" height="300" width="200 "></div>
+            <div><img src = "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781501175466/it-9781501175466_hr.jpg "class="img-fluid" alt = "IT book" height="300" width="200 "></div>
+            <div> <img src= "https://m.media-amazon.com/images/I/914FJ7fcYkL._SL1500_.jpg" class="img-fluid" alt = "On Earth We're Briefly Gorgeous" height="300" width="200 "></div>
+            <div> <img src= "https://rukminim1.flixcart.com/image/832/832/xif0q/regionalbooks/6/s/y/no-longer-human-book-original-imagmmbczfp6kzpz.jpeg?q=70" class="img-fluid"alt = "No Longer Human" height="300" width="200 " ></div>
+            <div> <img src= "https://i0.wp.com/asianreviewofbooks.com/content/wp-content/uploads/2021/04/hmart2.jpg?resize=693%2C1024" class="img-fluid" alt = "Crying in H-Mart" height="300" width="200 " ></div>
+            <div> <img src= "https://tumbleweird.org/content/images/2022/09/itendswithus.jpg" class="img-fluid" alt = "It ends with us" height="300" width="200 " ></div>
+
+            <div class="arrow">▶</div>
+        </div>
+        <div class="links">
+            <div class="link-box">
+                <p>Newsletter</p>
+                <p>10/28</p>
+                <a href="#">Link</a>
+            </div>
+            <div class="link-box">
+                <p>Horror Book Club</p>
+                <a href="#">Join</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        © 2024 Mahati | <a href="#">Terms of Service</a> | <a href="#">Privacy Statement</a>
+    </footer>
+    
+    <!-- DEVELOPER: Mahati Yerramilli, IS117-001, Fall 2024 -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
