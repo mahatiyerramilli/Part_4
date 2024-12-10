@@ -143,3 +143,5 @@ zoom: 1
 .slicknav_nav .slicknav_txtnode {
 	margin-left: 15px;
 }
+
+/* DEVELOPER: Mahati Yerramilli, IS117-001, Fall 2024*/
